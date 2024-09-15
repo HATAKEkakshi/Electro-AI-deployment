@@ -1,6 +1,7 @@
+python=3.12
 streamlit
-numpy
-pandas
-sckit-learn
+numpy>=1.9.2
 pickle
-matplotlib
+scikit-learn==0.22.1
+matplotlib>=1.4.3
+pandas>=0.19
