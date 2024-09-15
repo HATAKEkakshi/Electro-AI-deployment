@@ -104,7 +104,7 @@ if choose=='PJME_hourly':
     st.write('X_test.shape = ', X_test.shape)
     st.write('y_test.shape = ',y_test.shape)
     choice=["LSTM","RNN"]
-    choice1=st.selectbox("Choose from following Dataset:",choice)
+    choice1=st.selectbox("Choose from following Model:",choice)
     if choice1=="RNN":
         #accesing model
         with open('rnnmodel2.pkl','rb') as f :
@@ -197,6 +197,7 @@ else:
 
     df_norm, scaler = normalize_data(df)
     df_norm.shape
+    st.title("Training and Testing Dataset")
     # 2017-02-13 after this date we will choose the test set
     split_date = '2017-02-13'
 
@@ -248,7 +249,7 @@ else:
     st.write('X_test.shape = ', X_test.shape)
     st.write('y_test.shape = ',y_test.shape)
     choice=["LSTM","RNN"]
-    choice1=st.selectbox("Choose from following Dataset:",choice)
+    choice1=st.selectbox("Choose from following Model:",choice)
     if choice1=="RNN":
         #accesing model
         with open('rnnmodel.pkl','rb') as g :
