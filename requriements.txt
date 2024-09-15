@@ -1,7 +1,0 @@
-python-3.12.6
-streamlit
-numpy>=1.9.2
-pickle
-scikit-learn==0.22.1
-matplotlib>=1.4.3
-pandas>=0.19
