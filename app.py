@@ -8,6 +8,10 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import r2_score
 
 
+import tensorflow as tf
+from keras.layers import Dense,Dropout,SimpleRNN,LSTM
+from keras.models import Sequential
+
 
 
 
